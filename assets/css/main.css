@@ -1,0 +1,235 @@
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-family: Teko;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+.menu-link {
+    color: #fff2e780;
+}
+
+.github {
+    color: #fff2e7;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    background: #181012;
+}
+
+.hero {
+    max-width: 1120px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    padding: 0rem 2rem;
+    margin: auto;
+    overflow: clip;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.destak {
+    font-family: Epilogue, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.brown {
+    color: #a45a49;
+}
+
+.yellow {
+    color: #e7a80e;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+hr {
+    border-color: #a45a49;
+}
+
+.hero-subtitle {
+    color: #c7bab3;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hero-img {
+    max-width: 45%;
+    column-count: 4;
+    column-gap: 1rem;
+    margin: -1rem;
+}
+.hero-img > figure > img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.button-container {
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate('0, -50%');
+}
+
+button {
+    padding: 0.5rem;
+    border: none;
+    background: #a45a49;
+    /* margin-top: -2rem; */
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.receitas {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+
+.header-receitas {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.header-title {
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff2e7;
+}
+
+.receitas-subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #c7bab3;
+}
+
+.cards {
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card {
+    background: #241a1c;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+    margin-top: 2rem;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.header-card-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.header-title-card {
+    color: #fff2e7;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.star {
+    color: #756a67;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.description {
+    color: #c7bab3;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.author > figure > img {
+    border-radius: 20rem;
+    width: 1.5rem;
+}
+
+.author-name {
+    color: #c7bab3;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background: #23181a;
+}
+
+.footer-copy {
+    color: #fff2e7;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-author {
+    color: rgba(255, 242, 231, 0.50);
+    font-size: 1rem;
+    font-weight: 500;
+}
